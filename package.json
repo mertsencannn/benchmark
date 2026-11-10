@@ -1,0 +1,23 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Private store for Lazada PH + Allegro PL listing/PDP screenshots and day-over-day UI/feature diffs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mertsencannn/benchmark.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mertsencannn/benchmark/issues"
+  },
+  "homepage": "https://github.com/mertsencannn/benchmark#readme",
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}

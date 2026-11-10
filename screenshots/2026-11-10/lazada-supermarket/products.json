@@ -1,0 +1,10 @@
+{
+  "crawledAt": "2026-11-10T14:02:55.150Z",
+  "key": "lazada-supermarket",
+  "listingUrl": "https://www.lazada.com.ph/tag/supermarket/?spm=a2o4l.homepage.search.d_go&q=supermarket&catalog_redirect_tag=true",
+  "finalListingUrl": "https://www.lazada.com.ph/tag/supermarket/?spm=a2o4l.homepage.search.d_go&q=supermarket&catalog_redirect_tag=true",
+  "listingTitle": "Shop Supermarket online | Lazada.com.ph",
+  "blocker": "Slider captcha overlay on listing; product grid not rendered (see listing.png)",
+  "products": [],
+  "httpStatus": 200
+}

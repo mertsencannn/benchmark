@@ -1,0 +1,10 @@
+{
+  "crawledAt": "2026-11-10T14:03:11.049Z",
+  "key": "allegro-tshirt",
+  "listingUrl": "https://allegro.pl/listing?string=tshirt",
+  "finalListingUrl": "https://allegro.pl/listing?string=tshirt",
+  "listingTitle": "allegro.pl",
+  "blocker": "HTTP 403 — Allegro 'You have been blocked' (datacenter IP / automation detection)",
+  "products": [],
+  "httpStatus": 403
+}
