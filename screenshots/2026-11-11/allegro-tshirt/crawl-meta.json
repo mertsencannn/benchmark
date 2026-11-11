@@ -1,0 +1,10 @@
+{
+  "id": "allegro-tshirt",
+  "listingUrl": "https://allegro.pl/listing?string=tshirt",
+  "listingScreenshot": "/agent/repos/benchmark/screenshots/2026-11-11/allegro-tshirt/listing.png",
+  "blockers": [
+    "HTTP 403 on listing",
+    "no product links found on listing"
+  ],
+  "pdps": []
+}

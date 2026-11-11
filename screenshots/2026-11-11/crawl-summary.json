@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-11",
+  "summary": [
+    {
+      "id": "lazada-supermarket",
+      "listingUrl": "https://www.lazada.com.ph/tag/supermarket/?spm=a2o4l.homepage.search.d_go&q=supermarket&catalog_redirect_tag=true",
+      "listingScreenshot": "/agent/repos/benchmark/screenshots/2026-11-11/lazada-supermarket/listing.png",
+      "blockers": [
+        "no product links found on listing"
+      ],
+      "pdps": []
+    },
+    {
+      "id": "lazada-tshirt",
+      "listingUrl": "https://www.lazada.com.ph/tag/tshirt/?q=tshirt&catalog_redirect_tag=true",
+      "listingScreenshot": "/agent/repos/benchmark/screenshots/2026-11-11/lazada-tshirt/listing.png",
+      "blockers": [
+        "blocker signals in page (https://www.lazada.com.ph//tag/tshirt//_____tmd_____/punish?x5secdata=xfS9WmL6BAJepF6AXzrtZj5-zlPLQ75PQLP4gMQX2FIgROiQEskK7cv5W7JoWAb3BpxSh8_dzZdpBmhpQm9d-ZwPFP5FUEg-c-nXMFQRPCUhTs6OUFTsuAb6ctk-BZxhgPIfYuk30hQXmkE_Q8PRtHdyi-RlaFF4MZtMYxZXpuLoiDjQlYWSKN8AZnWbyyugdHAAMXOD3MlKAq5CUcyuEygL_UbIIcBLdhUDAM3CEwINnT4Ykm0fP--3mhZMr5TDkwkI3MCABjB3chsszpy3AVCMYI1fWv9wqo1_s_gYDvH016DGH6vb66W2Hi1Tvar6USIDnXe7rsnvCRIt-F-dG9McrirZCmu2K7VFhUiDMKXKUwiK9MXN2c_cT2Bu1PH7DOr1zP2pcNUGhJFhKIeIGUFoWCk1ts_lhvqdNt2lNtG6XC8P_p36-AH81KbYR6_RLecW3iTUasuYDOjPaI6liJR2GLHt_oO6Jv3E9prEv_UHUH9diIw22cInsgcYOAAraHc90e063sdoNsIyfqO-5LeHlQIMSAPB8b9EYTnZGTcUSVyOSr3Y339msx9bYXk_0nymtD_-v41By2zI1NCdW2qeo9P4FoyDtj-ntFXFbjEX7sat_9k-YoaEuBNmT29S4KF8mdRyMCtUifbisHYOxH2w__bx__www.lazada.com.ph%2ftag%2ftshirt%2f&x5step=1)",
+        "no product links found on listing"
+      ],
+      "pdps": []
+    },
+    {
+      "id": "allegro-tshirt",
+      "listingUrl": "https://allegro.pl/listing?string=tshirt",
+      "listingScreenshot": "/agent/repos/benchmark/screenshots/2026-11-11/allegro-tshirt/listing.png",
+      "blockers": [
+        "HTTP 403 on listing",
+        "no product links found on listing"
+      ],
+      "pdps": []
+    }
+  ]
+}

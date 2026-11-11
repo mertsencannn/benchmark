@@ -1,0 +1,9 @@
+{
+  "id": "lazada-supermarket",
+  "listingUrl": "https://www.lazada.com.ph/tag/supermarket/?spm=a2o4l.homepage.search.d_go&q=supermarket&catalog_redirect_tag=true",
+  "listingScreenshot": "/agent/repos/benchmark/screenshots/2026-11-11/lazada-supermarket/listing.png",
+  "blockers": [
+    "no product links found on listing"
+  ],
+  "pdps": []
+}
