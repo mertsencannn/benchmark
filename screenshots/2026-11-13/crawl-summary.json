@@ -1,0 +1,35 @@
+{
+  "lazada-supermarket": {
+    "marketplace": "lazada-supermarket",
+    "listingUrl": "https://www.lazada.com.ph/tag/supermarket/?spm=a2o4l.homepage.search.d_go&q=supermarket&catalog_redirect_tag=true",
+    "products": [],
+    "blockers": {
+      "url": "https://www.lazada.com.ph/tag/supermarket/?spm=a2o4l.homepage.search.d_go&q=supermarket&catalog_redirect_tag=true",
+      "title": "Shop Supermarket online | Lazada.com.ph",
+      "flags": [],
+      "bodySnippet": "FEEDBACK SAVE MORE ON APP SELL ON LAZADA CUSTOMER CARE TRACK MY ORDER LOGIN SIGNUP\n \nSEARCH\nRecommend for you\ntiankeplus\nled light stand\nmidea rice cooker\nsnake\n \nCategories\n LazMall \n Vouchers\nCustomer Care\nHelp Center\nHow to Buy\nShipping & Delivery\nInternational Product Policy\nHow to Return\nQuestion?\nContact Us\nLazada\nAbout Lazada\nAfﬁliate Program\nLAffiliate Academy\nCareers\nTerms & Conditions\nPrivacy Policy\nPress & Media\nIntellectual Property Protection\nAlways Better\nDownload the App\nPayment M"
+    }
+  },
+  "lazada-tshirt": {
+    "marketplace": "lazada-tshirt",
+    "listingUrl": "https://www.lazada.com.ph/tag/tshirt/?q=tshirt&catalog_redirect_tag=true",
+    "products": [],
+    "blockers": {
+      "url": "https://www.lazada.com.ph/tag/tshirt/?q=tshirt&catalog_redirect_tag=true",
+      "title": "Shop Tshirt Cheap – Fast & Easy | Lazada Philippines",
+      "flags": [],
+      "bodySnippet": "FEEDBACK SAVE MORE ON APP SELL ON LAZADA CUSTOMER CARE TRACK MY ORDER LOGIN SIGNUP\n \nSEARCH\nRecommend for you\ntiankeplus\nled light stand\nmidea rice cooker\nsnake\n \nCategories\n LazMall \n Vouchers\nCustomer Care\nHelp Center\nHow to Buy\nShipping & Delivery\nInternational Product Policy\nHow to Return\nQuestion?\nContact Us\nLazada\nAbout Lazada\nAfﬁliate Program\nLAffiliate Academy\nCareers\nTerms & Conditions\nPrivacy Policy\nPress & Media\nIntellectual Property Protection\nAlways Better\nDownload the App\nPayment M"
+    }
+  },
+  "allegro-tshirt": {
+    "marketplace": "allegro-tshirt",
+    "listingUrl": "https://allegro.pl/listing?string=tshirt",
+    "products": [],
+    "blockers": {
+      "url": "https://allegro.pl/listing?string=tshirt",
+      "title": "allegro.pl",
+      "flags": [],
+      "bodySnippet": ""
+    }
+  }
+}

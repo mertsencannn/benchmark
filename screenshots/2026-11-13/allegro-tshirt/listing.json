@@ -1,0 +1,11 @@
+{
+  "marketplace": "allegro-tshirt",
+  "listingUrl": "https://allegro.pl/listing?string=tshirt",
+  "products": [],
+  "blockers": {
+    "url": "https://allegro.pl/listing?string=tshirt",
+    "title": "allegro.pl",
+    "flags": [],
+    "bodySnippet": ""
+  }
+}
