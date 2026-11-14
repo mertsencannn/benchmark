@@ -1,0 +1,7 @@
+{
+  "marketplace": "allegro-tshirt",
+  "listingUrl": "https://allegro.pl/listing?string=tshirt",
+  "products": [],
+  "blockers": null,
+  "fatalError": "TimeoutError: page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://allegro.pl/listing?string=tshirt\", waiting until \"domcontentloaded\"\n"
+}
