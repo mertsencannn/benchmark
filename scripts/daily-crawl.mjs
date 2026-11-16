@@ -15,24 +15,28 @@ const SOURCES = [
     listingUrl:
       'https://www.lazada.com.ph/tag/supermarket/?spm=a2o4l.homepage.search.d_go&q=supermarket&catalog_redirect_tag=true',
     collectLinks: async (page) => {
-      return page.$$eval('a[href*="-i"]', (as) => {
-        const seen = new Set();
-        const out = [];
-        for (const a of as) {
-          let href = a.href;
-          if (!href || seen.has(href)) continue;
-          if (!/\/products\//.test(href) && !/-i\d+/.test(href)) continue;
-          seen.add(href);
-          const title =
-            a.getAttribute('title') ||
-            a.querySelector('[class*="title"]')?.textContent?.trim() ||
-            a.textContent?.trim()?.slice(0, 120) ||
-            '';
-          out.push({ url: href.split('?')[0], title });
-          if (out.length >= LIMIT) break;
-        }
-        return out;
-      });
+      return page.$$eval(
+        'a[href*="-i"]',
+        (as, limit) => {
+          const seen = new Set();
+          const out = [];
+          for (const a of as) {
+            let href = a.href;
+            if (!href || seen.has(href)) continue;
+            if (!/\/products\//.test(href) && !/-i\d+/.test(href)) continue;
+            seen.add(href);
+            const title =
+              a.getAttribute('title') ||
+              a.querySelector('[class*="title"]')?.textContent?.trim() ||
+              a.textContent?.trim()?.slice(0, 120) ||
+              '';
+            out.push({ url: href.split('?')[0], title });
+            if (out.length >= limit) break;
+          }
+          return out;
+        },
+        LIMIT
+      );
     },
   },
   {
@@ -40,43 +44,51 @@ const SOURCES = [
     listingUrl:
       'https://www.lazada.com.ph/tag/tshirt/?q=tshirt&catalog_redirect_tag=true',
     collectLinks: async (page) => {
-      return page.$$eval('a[href*="-i"]', (as) => {
-        const seen = new Set();
-        const out = [];
-        for (const a of as) {
-          let href = a.href;
-          if (!href || seen.has(href)) continue;
-          if (!/\/products\//.test(href) && !/-i\d+/.test(href)) continue;
-          seen.add(href);
-          const title =
-            a.getAttribute('title') ||
-            a.querySelector('[class*="title"]')?.textContent?.trim() ||
-            a.textContent?.trim()?.slice(0, 120) ||
-            '';
-          out.push({ url: href.split('?')[0], title });
-          if (out.length >= LIMIT) break;
-        }
-        return out;
-      });
+      return page.$$eval(
+        'a[href*="-i"]',
+        (as, limit) => {
+          const seen = new Set();
+          const out = [];
+          for (const a of as) {
+            let href = a.href;
+            if (!href || seen.has(href)) continue;
+            if (!/\/products\//.test(href) && !/-i\d+/.test(href)) continue;
+            seen.add(href);
+            const title =
+              a.getAttribute('title') ||
+              a.querySelector('[class*="title"]')?.textContent?.trim() ||
+              a.textContent?.trim()?.slice(0, 120) ||
+              '';
+            out.push({ url: href.split('?')[0], title });
+            if (out.length >= limit) break;
+          }
+          return out;
+        },
+        LIMIT
+      );
     },
   },
   {
     id: 'allegro-tshirt',
     listingUrl: 'https://allegro.pl/listing?string=tshirt',
     collectLinks: async (page) => {
-      return page.$$eval('a[href*="/oferta/"]', (as) => {
-        const seen = new Set();
-        const out = [];
-        for (const a of as) {
-          const href = a.href?.split('?')[0];
-          if (!href || seen.has(href)) continue;
-          seen.add(href);
-          const title = a.getAttribute('title') || a.textContent?.trim()?.slice(0, 120) || '';
-          out.push({ url: href, title });
-          if (out.length >= LIMIT) break;
-        }
-        return out;
-      });
+      return page.$$eval(
+        'a[href*="/oferta/"]',
+        (as, limit) => {
+          const seen = new Set();
+          const out = [];
+          for (const a of as) {
+            const href = a.href?.split('?')[0];
+            if (!href || seen.has(href)) continue;
+            seen.add(href);
+            const title = a.getAttribute('title') || a.textContent?.trim()?.slice(0, 120) || '';
+            out.push({ url: href, title });
+            if (out.length >= limit) break;
+          }
+          return out;
+        },
+        LIMIT
+      );
     },
   },
 ];
