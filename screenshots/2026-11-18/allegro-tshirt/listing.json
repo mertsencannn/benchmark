@@ -1,0 +1,13 @@
+{
+  "marketplace": "allegro-tshirt",
+  "listingUrl": "https://allegro.pl/listing?string=tshirt",
+  "products": [],
+  "blockers": {
+    "url": "https://allegro.pl/listing?string=tshirt",
+    "title": "allegro.pl",
+    "flags": [
+      "bot_wall"
+    ],
+    "bodySnippet": "Zostałeś zablokowany. … w tej samej sieci (IP 18.223.85.25) operuje robot"
+  }
+}

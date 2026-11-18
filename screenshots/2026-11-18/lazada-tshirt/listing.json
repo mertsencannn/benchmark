@@ -1,0 +1,14 @@
+{
+  "marketplace": "lazada-tshirt",
+  "listingUrl": "https://www.lazada.com.ph/tag/tshirt/?q=tshirt&catalog_redirect_tag=true",
+  "products": [],
+  "blockers": {
+    "url": "https://www.lazada.com.ph//tag/tshirt//_____tmd_____/punish?x5secdata=xfqbaxKs4dIlDoxu71NCEBJ2l9b0ou25Avu7O7S6HHA4GlH9K4QGuHuTn7VfAtDhbP-ZpPaNisGlv6T8ipnVG9uj9FsqqKiaxDum4sZtbRp97aetd2ghelRKOoeE1Fdc2OfThqw6pSVAarTg0wb2WPYy4Uk037Yg34Q6sHjfo5GZpDrPcmtqPX-rnR2HLcjFD09vNHvkAiPLZWZW4bcetxi4jSJE_YLDQou5nxR6WxaH8y6basfmbtJ3c3PNjROkGe2XpKYD6pw0F4ma0uv2Omq3J1X-MrtrGLyYlN_LBKc_w_7lvdch_xYAb6cJGtX0GrzAfiSnIQ4In5RYkZrAGqBLUjkbgDYKo1eAiQ6maabFm-tpcb55Hm4fFHJ6AmlnwMe973kNAd43iBVckG0Y-2I7yZYgGpCzZ7DDFVct2ng6qVEr3Hr70JcWVJPGh0362dfDdVqt4JNTrjAGfMbyy8APjSp8uSKINo9ZvM5-axeYxnc9Qdv4KtguisPcXQe1ior7VOIxP-8Pmw2y4PHtS4R2ivxu_AQjMfXI6o1uQLbzFusBcjq-D2SBXfF15rbNQWI9adA-nUWjSrRp4uLBQY-2FngVdiWAgCqitaR-lCIKbgIPEZIOSGtROp6cq4WAq7MhI-eZH4sHfaL4txWvVuZg__bx__www.lazada.com.ph%2ftag%2ftshirt%2f&x5step=1",
+    "title": "",
+    "flags": [
+      "captcha_or_punish",
+      "robot_check"
+    ],
+    "bodySnippet": "Click to feedback >"
+  }
+}
