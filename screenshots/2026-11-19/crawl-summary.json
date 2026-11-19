@@ -1,0 +1,37 @@
+{
+  "lazada-supermarket": {
+    "marketplace": "lazada-supermarket",
+    "listingUrl": "https://www.lazada.com.ph/tag/supermarket/?spm=a2o4l.homepage.search.d_go&q=supermarket&catalog_redirect_tag=true",
+    "products": [],
+    "blockers": {
+      "url": "https://www.lazada.com.ph/tag/supermarket/?spm=a2o4l.homepage.search.d_go&q=supermarket&catalog_redirect_tag=true",
+      "title": "Shop Supermarket online | Lazada.com.ph",
+      "flags": [],
+      "bodySnippet": "FEEDBACK SAVE MORE ON APP SELL ON LAZADA CUSTOMER CARE TRACK MY ORDER LOGIN SIGNUP\n \nSEARCH\n \nCategories\n LazMall \n Vouchers\nCustomer Care\nHelp Center\nHow to Buy\nShipping & Delivery\nInternational Product Policy\nHow to Return\nQuestion?\nContact Us\nLazada\nAbout Lazada\nAfﬁliate Program\nLAffiliate Academy\nCareers\nTerms & Conditions\nPrivacy Policy\nPress & Media\nIntellectual Property Protection\nAlways Better\nDownload the App\nPayment Methods\n       \nDelivery Services\n     \nVerified by\nLazada Southeast A"
+    }
+  },
+  "lazada-tshirt": {
+    "marketplace": "lazada-tshirt",
+    "listingUrl": "https://www.lazada.com.ph/tag/tshirt/?q=tshirt&catalog_redirect_tag=true",
+    "products": [],
+    "blockers": {
+      "url": "https://www.lazada.com.ph//tag/tshirt//_____tmd_____/punish?x5secdata=xf_F2zQvQ8HKM1gNroQd1IK_s-Wxjrrm6WBHTpxaUEJoUfvX7U-PkPV3deIxkwmM0YVCn-Kkkgop2vxL2Vos5N6PNRy_5v5BQkgHcAQH8-t28VeZiV9ynM2HSngDcntsSmHZmjXQ5cICMrxKhCpyP7iV7cdzbjLPxolajk3nHVBb4e3KNxmWhiTYfzCL9AoMvLWr-OrHOA1RrZzVFvi1TlkmMqYOf9LIYVjHr2nsnbb86n_DHDRHdfj-B1IIkC8zvxVoZNRy80iQW3C92Q542KUvAET9df0wUQsbbJFdlfFAIP7SC_dLy7o0jq5aAdK-38DMzmgLhAhLZL_zAZ4Lh_qDAR3YcYefnlJRCYjn8KYiRMRVp9otAxKhawzmMF3sO9Tp49-jLC8RTPpwbKbOwfIdObEw1eKAWDOZ0v1a0Oxmaf9dazPU-AM-6tea7AyEK8yE-FWr6_GnDNIIu0pbKdjVSOFBHpu3rzeZp6tU_qM3mbU4i6LYidUXwhSXw62NNEVJvRkQ2pyEybg-X--Y_05JEHShUuZCNzSGjV-KzeBtZzTlXXz9m_uDiVQh_5mTRMMtMgQ7JTvxfnEuZ8Xz8l_8lTc9eSdDq-ArTkRtyLxvmSHFf2z5mDWr8ol2nqBR2wFbmOpT_yd7UCGS-UQ3vbrw__bx__www.lazada.com.ph%2ftag%2ftshirt%2f&x5step=1",
+      "title": "",
+      "flags": [
+        "captcha_or_punish"
+      ],
+      "bodySnippet": "Click to feedback >"
+    }
+  },
+  "allegro-tshirt": {
+    "marketplace": "allegro-tshirt",
+    "listingUrl": "https://allegro.pl/listing?string=tshirt",
+    "products": [],
+    "blockers": {
+      "url": "https://allegro.pl/listing?string=tshirt",
+      "title": "allegro.pl",
+      "flags": [],
+      "bodySnippet": ""
+    }
+  }
+}
