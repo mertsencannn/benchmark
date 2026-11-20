@@ -1,0 +1,14 @@
+{
+  "marketplace": "allegro-tshirt",
+  "listingUrl": "https://allegro.pl/listing?string=tshirt",
+  "products": [],
+  "blockers": {
+    "url": "https://allegro.pl/listing?string=tshirt",
+    "title": "allegro.pl",
+    "flags": [
+      "bot_wall"
+    ],
+    "bodySnippet": "Zostałeś zablokowany. IP 3.231.131.238"
+  },
+  "initialFatalError": "TimeoutError: page.goto: Timeout 90000ms exceeded (domcontentloaded); retry with waitUntil=load succeeded."
+}
