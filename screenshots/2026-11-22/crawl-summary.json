@@ -1,0 +1,42 @@
+{
+  "lazada-supermarket": {
+    "marketplace": "lazada-supermarket",
+    "listingUrl": "https://www.lazada.com.ph/tag/supermarket/?spm=a2o4l.homepage.search.d_go&q=supermarket&catalog_redirect_tag=true",
+    "products": [],
+    "blockers": {
+      "url": "https://www.lazada.com.ph//tag/supermarket//_____tmd_____/punish?x5secdata=xfUKtkT7gCAj8eb1of44vYC06aRAkg81C95yqQkR8WpLYnvovB_SWb5dUJ3-PGIokVo5Blur67v4fNtD6WSb7_6IXlEaWMyILre-GpY9vW-fVUPnZNefmkIHS1LT2d3xsnn0_qpozdOkzpf-M5gra4Z8e70AmqRX5M-CDBPPNT0RuM6Wjx5jFmHaX6Jm-yChvXQBmjKlAjbQkxdXYcBiIHmWD75IsIurG_PvYMrAVlNRV7al3-BbG27nuasdjgdVVLl5ifNV3CD-l0GIcWhfqt_wX7psK4gfuFUZ6VLXiFzAZSrRQkeyLLzcN1ijLkVdD8aMBPKkI2z1no4zy7Spa-b4BUsmYLBbsOi1Gm3bPETB5-8oekSX7_xKqCm03WLe43-GWOma49YlkLsLSmT0GtXWeWuqX-fsy7ld-El7xctka4yvdj5yHJdGi4J13oRAurA14EKT5026_gugs1dVjaRX3loxwchg-fLZ-9iGPJrQfwHn1-8lXmiuoPlDqFNVgsw6wxDfyN2LnLMmG2-GJAdLyAcloT1mDJuxgtd8Jft27ZVKNO1sg8aKz5sUoBupLWNFqQdcFellzIkEKGVbUgaIqQW3-jKZiuCiACHvsSRabdaE0AT5da3Y45vuzGBcSUmjPackxaESyOjqBIgUuOPg__bx__www.lazada.com.ph%2ftag%2fsupermarket%2f&x5step=1",
+      "title": "",
+      "flags": [
+        "captcha_or_punish"
+      ],
+      "bodySnippet": "Click to feedback >"
+    }
+  },
+  "lazada-tshirt": {
+    "marketplace": "lazada-tshirt",
+    "listingUrl": "https://www.lazada.com.ph/tag/tshirt/?q=tshirt&catalog_redirect_tag=true",
+    "products": [],
+    "blockers": {
+      "url": "https://www.lazada.com.ph//tag/tshirt//_____tmd_____/punish?x5secdata=xfqNFQJGnuZGet9ZrImr09pgh2aqkkoXk6wkIpjh_u6V5sp9HjcXoD9DG2PlS1-1P86Kbenc5rzev_Z9vD-EaB1AuZdeY478gsnSkdn6EgN4ze6JrXnLhQNkeLEIfHE7zPHVG5mvp4bRE4FdFRywbEwt7p6Tu_HqpuK4WhKfpTxo0982XfTy7MiF7jv6IBt1siYyizkUgfgLFJu-K8iUiLiVyszM8ArYHPjHIqeQwtT3KZANzQ2SUCb406q-Cx0nM658tgLiJE_GvSWyDdQ5FKGpiD_CpYaGf6MoMdxhmNrW4CelelbYacGQNeDEP7DG2RAcTA40BEbPma02bHL3ueR80mZmOusIOx6wO7HPvcED6iFS3MNFVMTrJV9FrnPE4cec7rKCXr9UJ_I9Kll8MsD-FJOlJMEjs8eU_IMa-1S9oLLvWb8OzRjoRiVJQ21M12QjZr8VMa86xgiDXhM5Z6ZnDTdJBq9czBQ-_fdun-Zfqr2lwfG52me6INXTOji0PCs-inOTMg-iIvV_e1hso_zQG2UM_mcHtbh3Y0iU37nNk9bk9cvVkxuxMqCZl7NY4yx_UrZuSoZt5QVy9gQuhERQVmUbcfGf_CHmAwtUBOwmtnqF9WP-dRkMOcxaduioC6XInjG0Lv8HKrJZoanLhxqw__bx__www.lazada.com.ph%2ftag%2ftshirt%2f&x5step=1",
+      "title": "",
+      "flags": [
+        "captcha_or_punish"
+      ],
+      "bodySnippet": "Click to feedback >"
+    }
+  },
+  "allegro-tshirt": {
+    "marketplace": "allegro-tshirt",
+    "listingUrl": "https://allegro.pl/listing?string=tshirt",
+    "products": [],
+    "blockers": {
+      "url": "https://allegro.pl/listing?string=tshirt",
+      "title": "allegro.pl",
+      "flags": [
+        "bot_wall"
+      ],
+      "bodySnippet": "Zostałeś zablokowany. … w tej samej sieci (IP 54.243.181.164) operuje robot … ID: 8d31d559-8a54-cc29-56cc-60a074507848"
+    },
+    "retryNote": "Initial domcontentloaded timeout; retry with waitUntil=load captured block wall."
+  }
+}
