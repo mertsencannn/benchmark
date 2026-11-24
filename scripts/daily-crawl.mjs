@@ -16,14 +16,14 @@ const SOURCES = [
       'https://www.lazada.com.ph/tag/supermarket/?spm=a2o4l.homepage.search.d_go&q=supermarket&catalog_redirect_tag=true',
     collectLinks: async (page) => {
       return page.$$eval(
-        'a[href*="-i"]',
+        'a[href*="/products/pdp-"]',
         (as, limit) => {
           const seen = new Set();
           const out = [];
           for (const a of as) {
             let href = a.href;
             if (!href || seen.has(href)) continue;
-            if (!/\/products\//.test(href) && !/-i\d+/.test(href)) continue;
+            if (!/\/products\/pdp-i/.test(href)) continue;
             seen.add(href);
             const title =
               a.getAttribute('title') ||
@@ -45,14 +45,14 @@ const SOURCES = [
       'https://www.lazada.com.ph/tag/tshirt/?q=tshirt&catalog_redirect_tag=true',
     collectLinks: async (page) => {
       return page.$$eval(
-        'a[href*="-i"]',
+        'a[href*="/products/pdp-"]',
         (as, limit) => {
           const seen = new Set();
           const out = [];
           for (const a of as) {
             let href = a.href;
             if (!href || seen.has(href)) continue;
-            if (!/\/products\//.test(href) && !/-i\d+/.test(href)) continue;
+            if (!/\/products\/pdp-i/.test(href)) continue;
             seen.add(href);
             const title =
               a.getAttribute('title') ||
@@ -125,8 +125,18 @@ async function crawlSource(browser, source) {
   const page = await context.newPage();
 
   try {
-    await page.goto(source.listingUrl, { waitUntil: 'domcontentloaded', timeout: 90000 });
-    await page.waitForTimeout(3000);
+    const waitUntil = source.id.startsWith('allegro') ? 'load' : 'domcontentloaded';
+    await page.goto(source.listingUrl, { waitUntil, timeout: 90000 });
+    if (source.id.startsWith('lazada')) {
+      await page
+        .waitForSelector('a[href*="/products/pdp-"]', { timeout: 45000 })
+        .catch(() => {});
+      await page.waitForTimeout(2000);
+    } else if (source.id.startsWith('allegro')) {
+      await page.waitForTimeout(5000);
+    } else {
+      await page.waitForTimeout(3000);
+    }
     meta.blockers = await detectBlockers(page);
     await page.screenshot({
       path: path.join(dir, 'listing.png'),

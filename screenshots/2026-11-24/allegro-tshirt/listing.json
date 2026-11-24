@@ -1,0 +1,13 @@
+{
+  "marketplace": "allegro-tshirt",
+  "listingUrl": "https://allegro.pl/listing?string=tshirt",
+  "products": [],
+  "blockers": {
+    "url": "https://allegro.pl/listing?string=tshirt",
+    "title": "allegro.pl",
+    "flags": ["bot_wall"],
+    "incidentId": "fd211b74-155d-740d-1822-91521820fcaa",
+    "blockedIp": "54.159.155.113",
+    "bodySnippet": ""
+  }
+}
