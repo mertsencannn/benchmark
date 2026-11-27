@@ -1,0 +1,13 @@
+{
+  "marketplace": "lazada-supermarket",
+  "listingUrl": "https://www.lazada.com.ph/tag/supermarket/?spm=a2o4l.homepage.search.d_go&q=supermarket&catalog_redirect_tag=true",
+  "products": [],
+  "blockers": {
+    "url": "https://www.lazada.com.ph//tag/supermarket//_____tmd_____/punish?x5secdata=xf2-OK5l6qYQ3aSJn_erMRme7WZCBDzI24gC6Oo3-Ad18MIgalJgZrB2t0VDPhofoTU-JD4hVrTsNEWqulYvJ6bSVbBpFvciVSaH1gBpSc2bFIonFnEUB2JLh7YwgiomWKKXLFy-HxlzqsctJyyFYNi7jsTdDIwph0dapp2KAMzC2ftfFqX6pDH9TWOZMHrZUmttpwlHkVkqBvJlrUxexHsb3rkqJUgA3M1VztxOz5KxXI7Y1dQAvzqivRVIbF4iHHdOLlQp9YVHW3GMQNEzV9Y0luLC4FLw92pfrBRRCSyUC26nYLXxqNpLcDOcMA8jb3ylIDtk86rm0pbtvj21ki0pEbfKQJgk8guwyi3vVMSWF4Mc05bsYY72Rs5kfxe7eUj8npNIqOxLRTLxlXpc5ZW8ncS9SKMJWmFZmdUK07mRISS6MN7OePjqcJaQKmBw3aimqrF8iJi0-UABK7FGQoX_2t4UMTwlhdFc054U6VC31a4xBiRC97R8wkDozmJ09e4mYywxRuhu6LnBv6jDryYa3OOEYs5Suc63Y_AUUJ8NYwraCKJEK-piXEx5ZZlVZfnzR23KZynJ199NtK5sgxyY2CxdEYlxK_9Dpk-m0nEJ4hryE-O0FPDj9rWs-ZAZKaZXVMvUIN5Rp0e6HuFTrC3Q__bx__www.lazada.com.ph%2ftag%2fsupermarket%2f&x5step=1",
+    "title": "",
+    "flags": [
+      "captcha_or_punish"
+    ],
+    "bodySnippet": "Click to feedback >"
+  }
+}
